@@ -5,9 +5,13 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Archivo', sans-serif;
-    background-color: #E0E8EE;
+    background-color: #42585D;
     box-sizing: border-box;	
     font-size: 16px;
+}
+
+span{
+    color: #f4b942;
 }
 
 html {
@@ -23,7 +27,7 @@ p{
 
 .nav-horizontal {
     display: flex;
-    background-color: #0A2F64;
+    background-color: #42585D;
     padding: 5px;
 }
 
@@ -45,7 +49,7 @@ p{
     transform: translate(85%,-50%);
     transition:all 0.7s;
     z-index: 10;
-    background-color: #0A2F64;
+    background-color: #42585D;
     padding: 10px;
     border-radius: 10px;
 }
@@ -58,13 +62,13 @@ p{
     font-weight: 600;
     text-decoration: none;
     color:#E0E8EE;
-    background-color: #0A2F64;
+    background-color: #42585D;
     transition: all 0.3s;
     padding: 5px;
 }
 
 .nav-vertical a:hover{
-    color:rgb(255, 118, 69);
+    color: #f4b942;
 }
 
 
@@ -78,7 +82,7 @@ p{
     text-align: center;
     font-size: 33px;
     font-weight: bold;
-    color: #0A2F64;
+    color: #42585D;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -115,11 +119,11 @@ p{
 }
 
 .section--color1{
-    color: #0A2F64;
+    color: #fafafa;
 }
 
 .section--color2{
-    color: #21508d;
+    color: #d0d7d9;
 }
 
 .img--analyse{
@@ -135,7 +139,7 @@ p{
     grid-column: 1/-1;
     text-align: center;
     margin: 0;
-    background: linear-gradient(0.25turn, #196DD9, #0D3A73);
+    background: linear-gradient(0.25turn, #56767e, #927b4d);
     background-clip: text;
     color: transparent;
 }
@@ -162,7 +166,7 @@ p{
 footer{
     display: grid; 
     column-gap: 16px;
-    background: linear-gradient(0.25turn, #196DD9, #0D3A73);
+    background: linear-gradient(0.25turn, #56767e, #927b4d);
     height: 300px;
     margin-top: 25px;
     clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 100%);
@@ -178,7 +182,7 @@ footer{
 
 .footer__el{
     margin-bottom: 16px;
-    color: white;
+    color: #fafafa;
 }
 
 .backToTop {
@@ -187,8 +191,8 @@ footer{
     right: 20px;
     width: 50px;
     height: 50px;
-    background-color: #0056b3;
-    color: white;
+    background-color: #42585D;
+    color: #fafafa;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -200,7 +204,7 @@ footer{
 }
 
 .backToTop:hover {
-    background-color: #032142;
+    background-color: #56767e;
     transform: scale(1.1);
 }
 
@@ -224,10 +228,7 @@ footer{
 
 .img--heaj img{
     width: 100%;
-
 }
-
-
 .gridcol {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -303,22 +304,8 @@ p{
 
 .backToTop {
     grid-column: 7/-1;
-    bottom: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    background-color: #0056b3;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: opacity 0.3s, transform 0.3s;
-    display:  flex;
-    margin-top: 20px;
 }
+
 .gridcol {
     grid-template-columns: repeat(7, 1fr);
     column-gap: 20px;
