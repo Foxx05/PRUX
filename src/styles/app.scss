@@ -37,9 +37,11 @@ p{
     padding-top: 15px;
     padding-left: 25px;
 }
+
 .img--header{
     width: 100%;
 }
+
 .nav-vertical {
     display: flex;
     flex-direction: column;
@@ -89,7 +91,6 @@ p{
     width: 90%;
     max-width: 600px;
     word-wrap: break-word;
-    /*force le titre à rester sur une ligne - utilisation ChatGPT*/
 }
 
 .title--col1{
